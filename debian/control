@@ -9,4 +9,4 @@ Standards-Version: 4.6.2
 Package: acme.sh
 Architecture: all
 Description: A pure Unix shell script implementing ACME client protocol
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}

@@ -1,5 +1,10 @@
-acme.sh     usr/share/acme.sh/
-LICENSE.md  usr/share/acme.sh/
+#! /usr/bin/dh-exec
+debian/acme.sh.bin =>   usr/bin/acme.sh
+debian/account.conf     etc/acme.sh
+
 deploy      usr/share/acme.sh/
 dnsapi      usr/share/acme.sh/
 notify      usr/share/acme.sh/
+acme.sh     usr/share/acme.sh/
+LICENSE.md  usr/share/acme.sh/
+README.md   usr/share/acme.sh/

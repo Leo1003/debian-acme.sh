@@ -1,0 +1,2 @@
+LE_CONFIG_HOME=/etc/acme.sh
+LE_WORKING_DIR=/usr/share/acme.sh
