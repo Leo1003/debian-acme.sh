@@ -1,0 +1,9 @@
+.debhelper/
+debhelper-build-stamp
+*.debhelper.log
+*.debhelper
+tmp/
+files
+
+acme.sh/
+acme.sh.substvars
