@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 . /etc/default/acme.sh
 if [ `id -u` -eq 0 ]; then
     export LE_CONFIG_HOME=/etc/acme.sh

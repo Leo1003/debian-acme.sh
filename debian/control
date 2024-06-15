@@ -3,7 +3,9 @@ Priority: optional
 Maintainer: Leo Chen <leo881003@gmail.com>
 Rules-Requires-Root: no
 Section: web
-Build-Depends: debhelper-compat (= 13)
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-exec,
 Standards-Version: 4.6.2
 
 Package: acme.sh

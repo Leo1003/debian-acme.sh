@@ -1,0 +1,9 @@
+[Unit]
+Description=Renew certificates using acme.sh
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/default/acme.sh
+ExecStart=/usr/share/acme.sh/acme.sh --cron
