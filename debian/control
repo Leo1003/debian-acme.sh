@@ -1,8 +1,8 @@
 Source: acme.sh
 Priority: optional
+Section: misc
 Maintainer: Leo Chen <leo881003@gmail.com>
 Rules-Requires-Root: no
-Section: web
 Build-Depends:
  debhelper-compat (= 13),
  dh-exec,
@@ -11,4 +11,10 @@ Standards-Version: 4.6.2
 Package: acme.sh
 Architecture: all
 Description: A pure Unix shell script implementing ACME client protocol
-Depends: ${misc:Depends}
+ An ACME protocol client written purely in Shell (Unix shell) language with full ACME protocol implementation.
+Depends:
+ ${misc:Depends},
+ curl,
+ openssl,
+Recommends:
+ socat,
