@@ -1,9 +1,17 @@
 Source: acme.sh
-Maintainer: Maarten den Braber <m@mdbraber.com> 
-Build-Depends: debhelper (>= 9), lsb-release, wget, dpkg-dev
+Priority: optional
+Maintainer: Leo Chen <leo881003@gmail.com>
+Rules-Requires-Root: no
+Section: web
+Build-Depends:
+ debhelper-compat (= 13),
+ lsb-release,
+ curl,
+Standards-Version: 4.6.2
 
 Package: acme.sh
-Architecture: any
+Architecture: all
 Description: A pure Unix shell script implementing ACME client protocol
-Priority: optional
-Section: web
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
