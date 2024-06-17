@@ -11,7 +11,8 @@ Standards-Version: 4.6.2
 Package: acme.sh
 Architecture: all
 Description: A pure Unix shell script implementing ACME client protocol
- An ACME protocol client written purely in Shell (Unix shell) language with full ACME protocol implementation.
+ An ACME protocol client written purely in Shell (Unix shell) language
+ with full ACME protocol implementation.
 Depends:
  ${misc:Depends},
  curl,

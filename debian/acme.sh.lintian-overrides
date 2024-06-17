@@ -1,2 +1,4 @@
+initial-upload-closes-no-bugs
 script-not-executable
 script-with-language-extension [usr/bin/acme.sh]
+no-manual-page [usr/bin/acme.sh]
